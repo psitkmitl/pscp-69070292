@@ -21,11 +21,11 @@ oj2996
 OJ submission ID, if submitted:
 
 ```text
-
+542720
 ```
 
 OJ status:
-
+Pass
 ```text
 Pass / Not Pass / Not Submit
 ```
@@ -33,7 +33,7 @@ Pass / Not Pass / Not Submit
 Independent time spent on this problem:
 
 ```text
-
+around 2 min
 ```
 
 Choose one:
@@ -73,7 +73,7 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
-
+take word input and output it backword and all lowercase
 ```
 
 ---
@@ -93,9 +93,9 @@ This can be rough. It may be incomplete or different from your final solution.
 You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```text
-Step 1:
-Step 2:
-Step 3:
+Step 1:write for the pep8 first
+Step 2:write to take str input
+Step 3:write for output to be backword and in lowercase
 ```
 
 ---
@@ -115,7 +115,7 @@ Do not copy AI's explanation.
 Do not copy another person's explanation.
 
 ```text
-
+write in main func. write take in input and write to output as backword and in lowercase and use main func
 ```
 
 ---
@@ -135,31 +135,31 @@ If the input or output has many lines, write them inside the text blocks.
 Why I chose this case:
 
 ```text
-
+to test if it gonna be backword
 ```
 
 Input:
 
 ```text
-
+john
 ```
 
 Expected output:
 
 ```text
-
+nhoj
 ```
 
 Actual output:
 
 ```text
-
+nhoj
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 2
@@ -167,31 +167,31 @@ Pass / Not Pass
 Why I chose this case:
 
 ```text
-
+to test if it gonna be lowercase
 ```
 
 Input:
 
 ```text
-
+JOHN
 ```
 
 Expected output:
 
 ```text
-
+nhoj
 ```
 
 Actual output:
 
 ```text
-
+nhoj
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 3
@@ -199,31 +199,31 @@ Pass / Not Pass
 Why I chose this case:
 
 ```text
-
+just to double check
 ```
 
 Input:
 
 ```text
-
+John
 ```
 
 Expected output:
 
 ```text
-
+nhoj
 ```
 
 Actual output:
 
 ```text
-
+nhoj
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ---
@@ -233,13 +233,13 @@ Pass / Not Pass
 Did you use AI for this problem?
 
 ```text
-Yes / No
+No
 ```
 
 If yes, also complete:
 
 ```text
-ai_reflection.md
+
 ```
 
 If you only asked a friend, TA, or instructor and did not use AI, you do not need to complete `ai_reflection.md`.
@@ -251,7 +251,7 @@ If you only asked a friend, TA, or instructor and did not use AI, you do not nee
 Did you ask a friend, TA, instructor, or another person for help on this problem?
 
 ```text
-Yes / No
+No
 ```
 
 If yes, briefly explain what kind of help you received.
@@ -276,19 +276,19 @@ Not allowed:
 Who helped you?
 
 ```text
-
+no one
 ```
 
 What did they help with?
 
 ```text
-
+nothing
 ```
 
 What did you still do by yourself?
 
 ```text
-
+everything
 ```
 
 Did you copy any code from another person?
@@ -305,10 +305,10 @@ Write `Yes` for each statement.
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. | Yes |
+| I understand my final code. | Yes |
+| I recorded the real OJ status. | Yes |
+| I did not copy AI-generated text directly into this file. | Yes |
+| I did not copy code from another person. | Yes |
+| If I received human help, I disclosed it in this file. | Yes |
+| I submitted the final code to the OJ by myself. | Yes |
