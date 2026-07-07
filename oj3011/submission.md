@@ -15,13 +15,13 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-oj2996
+oj3011
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-542720
+544375
 ```
 
 OJ status:
@@ -33,7 +33,7 @@ Pass
 Independent time spent on this problem:
 
 ```text
-around 2 min
+around 10 - 15 min
 ```
 
 Choose one:
@@ -73,7 +73,7 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
-take word input and output it backword and all lowercase
+take 2 color input from 3 Primary Color and output a mixed color anything else is output "Error"
 ```
 
 ---
@@ -94,8 +94,9 @@ You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```text
 Step 1:write for the pep8 first
-Step 2:write to take str input
-Step 3:write for output to be backword and in lowercase
+Step 2:write to take 2 color input
+Step 3:write if and elif for all the mixed color
+Step 4:write else for the "Error"
 ```
 
 ---
@@ -115,7 +116,7 @@ Do not copy AI's explanation.
 Do not copy another person's explanation.
 
 ```text
-write in main func. write take in input and write to output as backword and in lowercase and use main func
+write in main func. write take in 2 color input and write if and elif for all the mixed color(and reverse input of color)also same color mixed then write else for the "Error"
 ```
 
 ---
@@ -135,25 +136,26 @@ If the input or output has many lines, write them inside the text blocks.
 Why I chose this case:
 
 ```text
-to test if it gonna be backword
+to test "Violet" output
 ```
 
 Input:
 
 ```text
-john
+Red
+Blue
 ```
 
 Expected output:
 
 ```text
-nhoj
+Violet
 ```
 
 Actual output:
 
 ```text
-nhoj
+Violet
 ```
 
 Result:
@@ -167,25 +169,26 @@ Pass
 Why I chose this case:
 
 ```text
-to test if it gonna be lowercase
+to test "Violet" output but with reverse input
 ```
 
 Input:
 
 ```text
-JOHN
+Blue
+Red
 ```
 
 Expected output:
 
 ```text
-nhoj
+Violet
 ```
 
 Actual output:
 
 ```text
-nhoj
+Violet
 ```
 
 Result:
@@ -199,25 +202,26 @@ Pass
 Why I chose this case:
 
 ```text
-just to double check
+to test for a same color mixed
 ```
 
 Input:
 
 ```text
-John
+Red
+Red
 ```
 
 Expected output:
 
 ```text
-nhoj
+Red
 ```
 
 Actual output:
 
 ```text
-nhoj
+Red
 ```
 
 Result:
